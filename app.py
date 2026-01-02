@@ -14,13 +14,14 @@ def calculate_grade(avg):
 
 
 def main():
-    name = input("Enter student name: ")
-    department = input("Enter department: ")
-    semester = input("Enter semester: ")
+    # Predefined values (NO user input)
+    name = "Rakesh"
+    department = "Computer Science"
+    semester = "5"
 
-    m1 = float(input("Enter marks of subject 1: "))
-    m2 = float(input("Enter marks of subject 2: "))
-    m3 = float(input("Enter marks of subject 3: "))
+    m1 = 78
+    m2 = 85
+    m3 = 72
 
     avg = (m1 + m2 + m3) / 3
     grade = calculate_grade(avg)
